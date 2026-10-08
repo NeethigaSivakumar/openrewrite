@@ -1,0 +1,6 @@
+server:
+  port: 8080
+spring:
+  # This property is deprecated in SB2. OpenRewrite will move it to spring.data.redis.host
+  redis:
+    host: localhost
